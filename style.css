@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    font-size: 20px;
+}
+.grid-info{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin-bottom: 10px;
+}
+.grid-todo{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.js-input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.js-input-date{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+}
+.Add-todo{
+    border: none;
+    background-color: green;
+    color: white;
+
+
+
+}
+.delete-todo{
+    padding-left: 32px;
+    padding-right: 31px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
